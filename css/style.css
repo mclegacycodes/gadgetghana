@@ -1,0 +1,280 @@
+*{
+	font-family: 'Varela Round', sans-serif;
+	box-sizing: border-box;
+}
+*a{
+	text-decoration: none;
+}
+body{
+	background-color: #f5f5f5;
+	color: #666;
+}
+/*first section of the header*/
+
+.banner{
+	background-color: #009B72;
+	display: flex;
+	justify-content: space-between;
+	padding: 6px;
+	position: relative;
+
+}
+.logo-head{
+	margin-left: 10%;
+}
+.logo-head > h3{
+	color: white;
+	margin: 0;
+	margin-top: 8px;
+}
+.account-details{
+	margin-right: 10%;
+	display: flex;
+}
+.icons-on-cart{
+margin-right: 25px;
+position: relative;
+}
+.fa-shopping-cart{
+	color: #2A2D34;
+	font-size: 35px;
+}
+.cart-amount{
+	background-color: white;
+	height: 20px;
+	width: 20px;
+	padding: 4px;
+	border-radius: 50%;
+	font-size: 12px;
+	position: absolute;
+	left: 27px;
+	bottom: 0;
+	opacity: .9;
+	color: #009DDC;
+
+}
+.cart-word{
+	font-size: 20px;
+	color: white;
+}
+.amount-in-cart{
+	font-size: 14px;
+	color: white;
+}
+
+/*navigations area'*/
+nav{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10%;
+	padding-right: 10%;
+	max-height: 80px;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+	position: sticky;
+	top: 0;
+}
+
+ul li{
+	display: inline-block;
+}
+ul > li > a{
+	color: #a19a9a;
+	font-size: 18px;
+	margin-right: 35px;
+
+}
+ul li a:hover{
+	color: #009DDC;
+}
+ /*drop down icons*/
+ .fa-chevron-circle-down{
+ 	font-size: 15px;
+ }
+
+ /*dropdown and its content*/
+ .dropdown{
+ 	position: relative;
+ }
+ .dropdownContent{
+ 	padding: 16px;
+ 	display: none;
+ 	background-color: white;
+ 	color: #a19a9a;
+ 	font-size: 16px;
+ 	z-index: 1;
+ 	position: absolute;
+ 	padding-left: 0;
+ }
+ .dropdown:hover .dropdownContent{
+ 	display: block;
+ }
+ ol li a{
+ 	color: #a19a9a;
+ 	padding: 16px;
+ }
+ ol li a:hover{
+ 	color: #009DDC;
+ }
+
+/* landing page*/
+ .left-side{
+width: 20%;
+margin-right: 2%;
+padding: 8px;
+background-color: white;
+
+ }
+ .middle-side{
+width: 54%;
+margin-right: 2%;
+position: relative;
+background-color: white;
+height: 380px;
+
+ }
+ .right-side{
+width: 20%;
+
+ }
+
+.border-radius{
+	border-radius: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
+}
+#shop-now{
+background-color: #6761A8;
+color: white;
+position: absolute;
+top: 0;
+left: 0;
+padding: 4px 8px;
+border-radius: 4px 0 0 0 ;
+}
+#new-era-caption{
+	z-index: 2;
+	font-size: 30px;
+	font-weight: bold;
+	color: #009DDC;
+	position: absolute;
+	left:35px;
+	top: 150px;
+
+}
+#landing-pic{
+	width: 300px;
+	position: absolute;
+	right: 16px;
+	top: 50px;
+
+}
+.first-box{
+	background-color: white;
+	height: 90px;
+	margin-bottom: 3.33%;
+	padding: 20px;
+
+}
+.second-box{
+	background-color: white;
+	height: 90px;
+	margin-bottom: 6.6px;
+	margin-bottom: 3.33%;
+	padding: 20px;
+}
+.third-box{
+	background-color: white;
+	height: 90px;
+	margin-bottom: 6.6px;
+	margin-bottom: 3.33%;
+	padding: 20px;
+}
+.fourth-box{
+	background-color: white;
+	height: 90px;
+	margin-bottom: 3.33%;
+	padding: 20px;
+}
+.side-icon{
+	color: #6761A8;
+	font-size: 32px;
+}
+/* four main brands at the bottom */
+.fourBrands{
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+}
+.brand{
+	font-size: 25px;
+	margin-bottom: 0;
+	padding: 32px;
+	color: #666;
+}
+/*deals section*/
+
+
+.deals{
+	background-color: white;
+}
+.dealsCaption{
+	background-color: #009B72;
+	color: white;
+	border-radius: 4px  4px 0 0 
+}
+.display{
+	display: flex;
+}
+.mainDeal{
+	width: 35%;
+	margin: 32px;
+	padding: 36px;
+	margin-right: 5%
+}
+#hpOmen{
+	color:#009DDC;
+	font-size: 23px; 
+}
+#omenPrice{
+	font-size: 23px;
+	color: red;
+	opacity: .9;
+}
+.text-right{
+	text-align: right;
+}
+.margin-top{
+	margin-top: 16px;
+}
+.padding-bottom{
+	padding-bottom: 32px;
+}
+.small-deals{
+	display: flex;
+	position: relative;
+}
+.smallDealItems{
+	padding: 16px;
+	padding-top: 10%;
+	width: 20%;
+	border-left: 1px solid rgba(0,0,0,0.1);
+	margin-top: 32px;
+	margin-bottom: 70px;
+}
+.smallItemImage{
+	margin-bottom: 39%;
+}
+.strike{
+	color: red;
+	opacity: .8;
+	text-decoration: line-through;
+}
+.addToCart{
+	background-color: #009DDC;
+	color: white;
+	position: absolute;
+	left: 0;
+	padding: 8px 55px;
+	margin-top: 8px;
+	font-weight: bold;
+}
